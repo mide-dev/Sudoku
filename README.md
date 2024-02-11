@@ -2,6 +2,14 @@
 
 This documentation provides a comprehensive overview of the architectural framework of a Sudoku game project. It outlines the modular design approach, class roles and interactions, key design decisions, and the implementation of various design patterns. The objective is to offer insights into the developmental thought process behind the project.
 
+<p float="left">
+  <img src="1.png" width="400" height="450">
+  <img src="2.png" width="400" height="450">
+</p>
+
+![Sudoku UML](main.png)
+
+
 ## Overview
 
 The codebase consists of twelve (12) classes, with `Assign`, `Slot`, `Sudoku`, and `UI` provided as initial code to each student. Additional classes were introduced to enhance functionality, including `Operations`, `DisplayMessage`, `ButtonElement`, `ButtonElementGroup`, `CellElement`, `CellElementGroup`, `BoardElement`, `SudokuGUILogic`, and `GraphicalUI`. Modifications were made to some parts of the initial code to meet custom requirements.
