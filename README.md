@@ -12,11 +12,7 @@ This documentation provides a comprehensive overview of the architectural framew
 
 ## Overview
 
-The codebase consists of twelve (12) classes, with `Assign`, `Slot`, `Sudoku`, and `UI` provided as initial code to each student. Additional classes were introduced to enhance functionality, including `Operations`, `DisplayMessage`, `ButtonElement`, `ButtonElementGroup`, `CellElement`, `CellElementGroup`, `BoardElement`, `SudokuGUILogic`, and `GraphicalUI`. Modifications were made to some parts of the initial code to meet custom requirements.
-
-### Key Decisions
-
-- The `Assign` Class was excluded, with its responsibilities for game moves integrated into the `Sudoku` Class. This decision was based on the belief that player moves are a fundamental aspect of the game's functionality and should be managed within the `Sudoku` class itself.
+The codebase consists of twelve (11) classes, with `Slot`, `Sudoku`, and `UI` responsible for the core functionality, and additional classes including `Operations`, `DisplayMessage`, `ButtonElement`, `ButtonElementGroup`, `CellElement`, `CellElementGroup`, `BoardElement`, `SudokuGUILogic`, and `GraphicalUI` were added to improve gameplay experience.
 
 ## Class Functionality
 
